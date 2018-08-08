@@ -50,7 +50,7 @@ for(i=1; i<=100000; i++){
 
 8.  Récupérer les métriques.
 ```console
-db.serverStatus()
+db.serverStatus() >> outputMetricsMongoDb.txt
 ```
 
 ## Exécution des tests et collecte des métriques pour Cassandra.
@@ -94,7 +94,7 @@ SOURCE '~/output.cql'
 
 8.  Récupérer les métriques (Erreur de connexion).
 ```console
-nodetool tablestats log735.SystemDistribue
+nodetool tablestats log735.SystemDistribue >> outputMetricsCassandra.txt
 ```
 
 ## [P]roblème rencontrés, et [S]olutions trouvés
